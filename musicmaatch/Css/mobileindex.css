@@ -1,0 +1,280 @@
+﻿@import "http://fonts.googleapis.com/css?family=Raleway";
+Body{
+margin: 0;
+padding: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+#header{
+margin-top:-15px;
+background: url(../hbilder/Header.jpg) 100% 0 no-repeat fixed; 
+height: 900px; 
+ -webkit-filter: brightness(50%);
+filter: brightness(50%);
+}
+
+#searchbar{
+position: absolute;
+visibility: hidden;
+width:0%;
+}
+
+#searchbutton{
+position: absolute;
+width:2%;
+visibility: hidden;
+}
+
+#bigButton2{
+font-size:1.1em;
+font-weight: bold;
+background:#00BFFF	;
+padding:8px;
+border-radius: 25px;
+margin-left:10px;
+transition:0.2s;
+cursor:pointer;
+}
+
+#bigButton2:hover{
+background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.4);
+transition: color 0.2s ease 0s;
+}
+
+.blank{
+height: 220px;
+}
+.arrowdown{
+background:url(../Bilder/arrowdown.png);
+height: 60px;
+width: 60px;
+position: relative;
+top: 20px;
+display: block;
+margin: 0px auto;
+z-index:2;
+}
+
+.blank h1, #firsth1{
+color:black;
+text-align:center;
+font-family:'Raleway',sans-serif;
+font-weight: bold;
+font-size: 2em;
+line-height: 1.1em;
+margin:0px;
+text-transform: uppercase;
+padding:10px;
+}
+
+.blank img{
+margin:auto;
+}
+
+.blank p,  #first1 {
+color:black;
+text-align:center;
+margin:auto;
+font-family:'Raleway',sans-serif;
+font-weight: normal;
+font-size: 1em;
+line-height: 1.1em;
+text-transform: uppercase;
+padding:10px;
+
+}
+
+
+
+nav{
+background-color:grey;
+
+}
+.nav{
+background-color:grey;
+position:relative;
+margin-top: -10px;
+display:none;
+
+}
+
+.nav li {
+margin-left:-50px;
+text-align:center;
+display: block;
+float: none;
+line-height:40px;
+text-shadow: 1px 1px 0px #283744;
+border-top: 1px solid white;
+
+}
+
+.nav li a {
+color:white;
+padding:10px;
+font-size:1.2em;
+font-family:helvetica;
+text-decoration:none;
+}
+
+
+.nav li a:hover {
+cursor: pointer;
+
+}
+
+.menu-btn{
+height: 65px;
+display: inline-block;
+right: 15px;
+background-color:grey;
+text-align:center;
+position:relative;
+}
+
+#mlogo{
+background:url(../hbilder/nav-icon.png) 0 no-repeat;
+height:35px;
+width:35px;
+position:absolute;
+z-index: 1;
+margin-left:10px;
+margin-top:8px;
+cursor:pointer;
+}
+
+#logo{
+margin-top:3px;
+padding:5px;
+margin-left:50px;
+z-index:1;
+position:absolute;
+background:url(../hbilder/biglogo2.png);
+height:40px;
+width:190px;
+
+}
+
+
+.story { 
+height: 900px; 
+padding: 0px; 
+margin: 0px; 
+width: 100%; 
+max-width:100%;
+margin: auto; 
+-webkit-filter: brightness(50%);
+filter: brightness(50%);
+top:1px;
+position:relative;
+}
+
+#first1{
+position: absolute;
+top: 400px;
+width: 80%;
+
+margin:auto;
+color:white;
+}
+#firsth1{
+margin: auto;
+text-align: center;
+color: white;
+
+}
+
+#p2b{
+height:auto;
+width: 96%;
+padding: 6px;
+min-width:0px;
+position:absolute;
+z-index: 1;
+bottom: -550px;
+}
+
+#Bilder2{
+margin-left: -18px;
+visibility: hidden;
+}
+#blank2{
+float: left;
+}
+#blank2 p{
+position: relative;
+
+}
+
+
+#first { background: url(../hbilder/slide.jpg) 10% 0 no-repeat fixed ; 
+
+background-size:cover;
+}
+#second { background: url(../hbilder/slide2.1.jpg) 10% 0 no-repeat fixed; 
+background-size:cover;
+ }
+ 
+#third { background: url(../hbilder/slide3.jpg) 10% 0 no-repeat fixed; 
+
+background-size:cover;
+
+ }
+#fourth { background: url(../hbilder/slide4.jpg) 10% 0 no-repeat fixed; 
+
+background-size:cover;
+
+}
+
+#footer1{
+background: url(../hbilder/endoftheline.jpg) ;
+background-size:cover;
+}
+
+footer{
+height:200px;
+
+}
+
+
+#social{
+text-decoration:none;
+list-style:none;
+position: relative;
+float: right;
+bottom: 135px;
+right: 100px;
+}
+ 
+#social a:hover{
+opacity:0.5;
+transition:ease-in 0.2s;
+
+} 
+
+#info a{
+text-decoration:none;
+color:black;
+}
+
+footer li , #social p{
+
+font-family:'Raleway',sans-serif;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+margin:0px;
+list-style:none;
+padding:5px;
+}
+
+#info p {
+display:inline;
+bottom:5px;
+padding:10px;
+margin:10px;
+position:relative;
+}
+

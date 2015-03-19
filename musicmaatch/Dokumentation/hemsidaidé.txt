@@ -1,0 +1,19 @@
+﻿* Man ska kunna lägga in sin "egna musik"
+* Folk ska kunna Rösta 1-5 på "din musik"
+* Hemsidans funktion är att man ska kunna hitta "ny" musik 
+* Stilren och modern hemsida som ser bra ut
+* Hemsidan ska ha featured musik varje dag som uppdateras beroende på högt poäng på musik ca 5-10 låtar. 
+
+
+
+
+
+
+
+
+
+
+
+
+Rate system:
+http://code.tutsplus.com/tutorials/building-a-5-star-rating-system-with-jquery-ajax-and-php--net-11541

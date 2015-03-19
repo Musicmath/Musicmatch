@@ -1,0 +1,100 @@
+﻿Body{
+margin: 0;
+padding: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+
+}
+
+.blank{
+background-color:white;
+height:50px;
+
+}
+
+nav{
+background-color:grey;
+
+}
+.nav{
+background-color:grey;
+position:relative;
+margin-top: -10px;
+display:none;
+
+}
+
+.nav li {
+margin-left:-50px;
+text-align:center;
+display: block;
+float: none;
+line-height:40px;
+text-shadow: 1px 1px 0px #283744;
+border-top: 1px solid white;
+
+}
+
+.nav li a {
+color:white;
+padding:10px;
+font-size:1.2em;
+font-family:helvetica;
+text-decoration:none;
+}
+
+.menu-btn{
+height: 65px;
+display: inline-block;
+right: 15px;
+background-color:grey;
+text-align:center;
+position:relative;
+}
+
+#mlogo{
+background:url(../hbilder/nav-icon.png) 0 no-repeat;
+height:35px;
+width:35px;
+position:absolute;
+z-index: 1;
+margin-left:10px;
+margin-top:8px;
+cursor:pointer;
+}
+
+#logo{
+margin-top:3px;
+padding:5px;
+margin-left:50px;
+z-index:1;
+position:absolute;
+background:url(../hbilder/biglogo2.png);
+height:40px;
+width:190px;
+
+}
+
+
+.story { 
+height: 900px; 
+padding: 0; 
+margin: 0; 
+width: 100%; 
+max-width:100%;
+margin: auto; 
+border-top: 1px solid rgba(255,255,255,0.3); 
+border-bottom: 1px solid rgba(0,0,0,0.4); 
+}
+
+
+#footer1{
+background: url(../hbilder/endoftheline.jpg) ;
+background-size:cover;
+}
+
+footer{
+height:100px;
+}
+

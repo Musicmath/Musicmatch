@@ -1,0 +1,273 @@
+﻿@import "http://fonts.googleapis.com/css?family=Raleway";
+Body{
+margin: 0;
+padding: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+#bigButton ,#bigButton2{
+font-size:1.1em;
+font-weight: bold;
+background-color:#00BFFF	;
+padding:8px;
+border-radius: 25px;
+margin-left:10px;
+transition:0.2s;
+cursor:pointer;
+}
+
+#bigButton:hover ,#bigButton2:hover{
+background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.4);
+transition: color 0.2s ease 0s;
+}
+
+
+ul.nav{
+position:fixed;
+padding:20px;
+background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.6);
+margin:0px;
+font-weight: bold;
+width:100%;
+z-index:5;
+}
+
+.nav{
+text-align:center;
+
+
+}
+
+.nav li{
+list-style:none;
+display:inline;
+position:relative;
+right:100px;
+}
+
+.nav li a{
+font-family:helvetica;
+text-decoration:none;
+Color:white;
+padding: 10px;
+transition: color 0.2s ease 0s;
+}
+
+.nav li a:hover{
+color:#00BFFF;
+}
+
+
+
+#header{
+background: url(../hbilder/Header.jpg) 25% 0 no-repeat fixed; 
+background-size:cover;
+height: 900px;
+-webkit-filter: brightness(50%); 
+filter: brightness(50%);
+}
+
+#searchbar{
+width:100px;
+position: absolute;
+top: -40px;
+right: -170px;
+box-shadow:none;
+}
+
+#searchbutton{
+position: relative;
+width: 2%;
+min-width: 20px;
+float: right;
+position: absolute;
+right: -200px;
+top: 3px;
+
+}
+
+
+
+.blank{
+height:350px;
+
+}
+
+.blank h1, #firsth1{
+color:black;
+text-align:center;
+font-family:'Raleway',sans-serif;
+font-weight: bold;
+font-size: 3em;
+line-height: 1.1em;
+margin:0px;
+text-transform: uppercase;
+padding:10px;
+}
+
+.blank img{
+margin:auto;
+}
+
+.arrowdown{
+background:url(../Bilder/arrowdown.png);
+height: 60px;
+width: 60px;
+position: relative;
+top: 20px;
+display: block;
+margin: 0px auto;
+}
+
+.blank p, #first1{
+color:black;
+text-align:center;
+margin:auto;
+font-family:'Raleway',sans-serif;
+font-weight: normal;
+font-size: 1em;
+line-height: 1.1em;
+text-transform: uppercase;
+padding:10px;
+width:600px;
+}
+
+#logo{
+top:1px;
+padding:5px;
+z-index:100;
+position:fixed;
+background:url(../hbilder/mediumlogo.png);
+height:50px;
+width:50px;
+}
+
+.story { 
+height: 900px; 
+padding: 0; 
+margin: 0; 
+width: 100%; 
+max-width:100%;
+margin: auto; 
+-webkit-filter: brightness(50%);
+filter: brightness(50%);
+top: 1px;
+position:relative;
+}
+#first1{
+position: absolute;
+top: 400px;
+width: 80%;
+left:145px;
+margin:auto;
+color:white;
+}
+#firsth1{
+margin: auto;
+text-align: center;
+color: white;
+
+}
+
+
+#p2b{
+height:auto;
+width: 98%;
+padding: 6px;
+min-width:400px;
+position:absolute;
+z-index: 1;
+bottom: -570px;
+}
+
+#Bilder2{
+box-shadow: -10px 10px 10px 3px black;
+margin-left:-18px;
+margin-top:30px;
+height:auto;
+width:250px;
+
+}
+
+#blank2{
+float:left;
+margin-left: -30px;
+margin-top: 50px;
+
+}
+
+#first { 
+background: url(../hbilder/slide.jpg) 25% 0 no-repeat fixed; 
+background-size:cover;
+}
+
+#second {
+background: url(../hbilder/slide2.1.jpg) 25% 0 no-repeat fixed;
+background-size:cover;
+ }
+ 
+#third { 
+background: url(../hbilder/slide3.jpg)  25% 0 no-repeat fixed ;
+background-size:cover;
+
+ }
+
+#fourth { 
+background: url(../hbilder/slide4.jpg) 25% 0 no-repeat fixed; 
+background-size:cover;
+
+}
+
+
+#footer1{
+
+background: url(../hbilder/endoftheline.jpg);
+background-size:cover;
+}
+
+footer{
+height:200px;
+
+}
+
+
+#social{
+text-decoration:none;
+list-style:none;
+position: relative;
+float: right;
+bottom: 135px;
+right: 100px;
+}
+ 
+#social a:hover{
+opacity:0.5;
+transition:ease-in 0.2s;
+
+} 
+
+#info a{
+text-decoration:none;
+color:black;
+}
+
+footer li , #social p{
+
+font-family:'Raleway',sans-serif;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+margin:0px;
+list-style:none;
+padding:5px;
+}
+
+#info p {
+display:inline;
+bottom:5px;
+padding:10px;
+margin:10px;
+position:relative;
+}

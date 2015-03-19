@@ -1,0 +1,326 @@
+
+*{
+border: none;
+outline: none;
+}
+
+body{
+font-family:arial;
+font-size:13px;
+line-height:1.5em;
+background: url(../images/bg.png);
+margin: 0;
+padding: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+
+}
+
+
+
+#logo{
+margin-top:5px;
+padding:5px;
+margin-left:100px;
+z-index:5;
+position:fixed;
+background:url(../../hbilder/biglogo2.png);
+height:40px;
+width:190px;
+}
+
+#bigButton{
+font-size:1.1em;
+font-weight: bold;
+background-color:#00BFFF	;
+padding:8px;
+border-radius: 25px;
+margin-left:10px;
+transition:0.2s;
+}
+
+#bigButton:hover{
+background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.4);
+transition:0.2s;
+}
+
+
+ul.nav{
+position:fixed;
+padding:20px;
+background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.6);
+margin:0px;
+font-weight: bold;
+width:100%;
+z-index:4;
+}
+
+.nav{
+text-align:center;
+
+}
+
+.nav li{
+list-style:none;
+display:inline;
+
+
+}
+
+.nav li a{
+font-family:helvetica;
+text-decoration:none;
+Color:white;
+padding: 10px;
+
+}
+
+
+
+.clearfix{
+clear:both;
+}
+
+#container{
+z-index:;
+background: none repeat scroll 0% 0% rgba(5, 0, 0, 0.6);
+background-color: #303030;
+top: 61px;
+position: fixed;
+height: 500px;
+z-index: 2;
+overflow-y: scroll;
+
+}
+
+#playbar{
+ position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+	color:white;
+}
+
+
+
+#audio-image{
+position:relative;
+width: 64px;
+height: auto;
+
+}
+#audio-imagemove{
+position: relative;
+top: 64px;
+}
+
+#audio-info{
+background-color: #303030;
+width: 200px;
+padding: 6px;
+left: 63px;
+bottom: 64px;
+text-align: center;
+position: relative;
+height: 52px;
+}
+
+#audio-info .artist{
+	font-weight:bold;
+}
+
+.cover{
+width: 64px;
+position: relative;
+top: 5px;
+}
+
+#cover{
+background-repeat: no-repeat;
+background-position: 50%;
+border-radius: 50%;
+
+	animation-name: pulse;
+	-webkit-animation-name: pulse;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.9);
+		opacity: 0.7;		
+	}
+	50% {
+		transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(0.9);
+		opacity: 0.7;	
+	}			
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.7;		
+	}
+	50% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.7;	
+	}			
+}
+
+#wrap{
+position: relative;
+top: 65px;
+width: 800px;
+margin: 0px auto;
+left: 116px;
+}
+
+#wrap br{
+display:none;
+}
+.audio-info{
+color: white;
+margin: 0px auto;
+position: relative;
+left: 165px;
+font-size: 3em;
+width: 500px;
+}
+#audio-player{
+height:auto;
+background-color: #303030;
+position: relative;
+}
+
+input#volume {
+width: 120px;
+left: 220px;
+background: none repeat scroll 0% 0% #CCC;
+height: 3px;
+position: absolute;
+top: 38px;
+}
+input#volume::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background:url(../images/knob.png) no-repeat;
+    height:12px;
+    width:12px;
+}
+
+#buttons{
+border-style:none;
+width:225px;
+padding:5px;
+z-index:3;
+height: 80px;
+}
+
+
+button#play{
+border-style:none;
+	width:50px;
+	height:50px;
+	background:url(../images/playbutton.gif);
+}
+
+button#pause{
+border-style:none;
+	width:70px;
+	height:70px;
+	background:url(../images/pause.png) no-repeat;
+}
+
+button#stop{
+border-style:none;
+	width:70px;
+	height:70px;
+	background:url(../images/stop.png) no-repeat;
+}
+
+button#prev{
+border-style:none;
+	width:70px;
+	height:70px;
+	background:url(../images/prev.gif) no-repeat;
+
+}
+
+button#next{
+border-style:none;
+	width:70px;
+	height:70px;
+	background:url(../images/next.gif) no-repeat;
+}
+
+#playlist {
+ list-style:none;
+
+}
+
+#playlist li {
+cursor: pointer;
+border:1px solid black;
+background-color:grey;
+width:200px;
+margin-left:-41px;
+}
+
+#tracker{
+
+position: absolute;
+margin-top: -65px;
+width: 350px;
+margin-left: 400px;
+}
+
+#playlist li.active {
+
+}
+
+#progressBar { 
+width: 60%;
+   margin-left:2%;
+   margin-bottom:20px;
+   margin-top:9px;
+   height:10px;
+ /*  background:url(../images/progress_bg.png) no-repeat;*/
+   float:left;
+   
+   
+}
+
+#progress {
+width: 1120px;
+height: 10px;
+display: inline-block;
+   
+}
+
+
+#duration{
+	position:relative;
+	float: left;
+	padding:4px 8px;
+	background:#000;
+	border-radius:5px;
+}
+
+footer{
+position: relative;
+top: 20px;
+}

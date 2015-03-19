@@ -1,0 +1,51 @@
+body{
+
+/*background-image:url("Bilder/Background1.png");*/
+
+padding:0px;
+margin:0px;
+font-family: 'Open Sans', sans-serif;
+height: 100%;
+}
+
+#header{
+position:relative;
+background-image:url("Bilder/funTimes.jpg");
+height:0px;
+width:100%;
+
+}
+#box{
+margin:auto;
+}
+
+
+
+#menu ul{
+min-width: 900px;
+padding:30px;
+background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.6);
+margin:0px;
+height:auto;
+font-weight: bold;
+
+}
+
+#menu li{
+
+list-style:none;
+display:inline;
+margin-left:200px;
+}
+
+#menu li a{
+position:absolute;
+text-decoration:none;
+Color:white;
+padding: 5px;
+}
+
+
+
+
+
