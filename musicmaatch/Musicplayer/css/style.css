@@ -127,7 +127,7 @@ height: 52px;
 }
 
 .cover{
-width: 64px;
+width: 65px;
 position: relative;
 top: 5px;
 }
@@ -178,7 +178,24 @@ position:fixed;
 		opacity: 0.7;	
 	}			
 }
+#searchbar{
+width:200px;
+position: absolute;
+top: -20px;
+right: 280px;
+box-shadow:none;
+}
 
+#searchbutton{
+position: relative;
+width: 1%;
+min-width: 20px;
+float: right;
+position: absolute;
+right: 259px;
+top: 23px;
+
+}
 #wrap{
 position: relative;
 top: 53px;
@@ -193,9 +210,9 @@ display:none;
 color: white;
 margin: 0px auto;
 position: fixed;
-left: 444px;
+left: 250px;
 font-size: 3em;
-width: 800px;
+width: 1200px;
 text-align:center;
 }
 #audio-player{
