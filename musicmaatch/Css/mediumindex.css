@@ -156,19 +156,19 @@ filter: brightness(50%);
 top: 1px;
 position:relative;
 }
-#first1{
-position: absolute;
-top: 400px;
-width: 80%;
-left:145px;
-margin:auto;
-color:white;
-}
 #firsth1{
 margin: auto;
 text-align: center;
 color: white;
-
+}
+#first1{
+position: absolute;
+top: 50%;
+width: 80%;
+margin: auto;
+color: white;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 
 

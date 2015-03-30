@@ -171,20 +171,6 @@ top:1px;
 position:relative;
 }
 
-#first1{
-position: absolute;
-top: 400px;
-width: 80%;
-
-margin:auto;
-color:white;
-}
-#firsth1{
-margin: auto;
-text-align: center;
-color: white;
-
-}
 
 #p2b{
 height:auto;
@@ -269,7 +255,20 @@ margin:0px;
 list-style:none;
 padding:5px;
 }
-
+#firsth1{
+margin: auto;
+text-align: center;
+color: white;
+}
+#first1{
+position: absolute;
+top: 50%;
+width: 80%;
+margin: auto;
+color: white;
+left: 50%;
+transform: translate(-50%, -50%);
+}
 #info p {
 display:inline;
 bottom:5px;

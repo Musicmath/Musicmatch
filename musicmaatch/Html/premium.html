@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="sv">
+   <head>
+      <meta charset="utf-8">
+      <title>Musicmatch</title>
+      <link rel="icon" href="Bilder/favicon.ico" type="image/x-icon"/>
+      <link rel='stylesheet'  media='screen and (min-width:1201px)' href='../Css/largepremium.css' />
+      <link rel='stylesheet' media='screen and (min-width: 841px) and (max-width: 1200px)'  href='../Css/mediumindex.css' />
+      <link rel='stylesheet' media='screen and (min-width: 0px) and (max-width: 840px)' href='../Css/mobileindex.css' />
+      <link rel='stylesheet' media='screen and (min-width:1201px)' href="../Css/largepopoutform.css" rel="stylesheet"/>
+      <link rel='stylesheet' media='screen and (min-width:841px) and (max-width: 1200px)'
+         href="../Css/mediumpopoutform.css" rel="stylesheet"/>
+      <link rel='stylesheet' media='screen and (min-width: 0px) and (max-width: 840px)'
+         href="../Css/mobilepopoutform.css" rel="stylesheet"/>
+      <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+      <script src="../Js/popoutform.js" type="text/javascript"></script>
+      <script><!-- Mobilmeny så att den inte syns direkt då man kommer in på mobilen (dropdown meny)-->
+         $(function() {
+         	var pull = $('#mlogo');
+         		menu = $('nav ul');
+         		menuHeight	= menu.height();
+         
+         	$(pull).on('click', function(e) {
+         		e.preventDefault();
+         		menu.slideToggle();
+         	});
+         
+         	$(window).resize(function(){
+               		var w = $(window).width();
+               		if(w > 320 && menu.is(':hidden')) {
+               			menu.removeAttr('style');
+               		}
+           		});
+         });
+      </script>
+	  <script type="text/javascript">
+    document.getElementById('searchbar').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=site:minsida ' + document.getElementById('searchbar').value;
+        return false;
+    }
+</script>
+      <script>
+         function div_show() {
+         document.getElementById('create').style.display = "block";
+         }
+         function div_show1(){
+         document.getElementById('login').style.display = "block";
+         }
+      </script>
+   </head>
+   <body>
+      <section id="Menu"><!-- Meny -->
+         <a id="logo" href="index.html"></a>
+         <a id="mlogo"></a>
+         <nav>
+            <span class="menu-btn"></span>
+            <ul class="nav">
+               
+            </ul>
+         </nav>
+      </section>
+     
+      <header id="header">
+	  
+      </header>
+	   <section id="firstMessage">
+	  <article id="first1">
+           
+               <h1 id="firsth1">fame lies beyond</h1>
+               <p>Get Premium. For only $7 a month.
+               </p>
+			    <a href"#" id="bigButton2"> Purchase Premium </a> 
+				<a name="button1" href="#button2" class="arrowdown"></a>
+           
+         </article>
+		 </section>
+		 
+	  <article class="blank">
+               <h1>  Premium lets you play any song, anytime. You can even listen when you’re offline. No restrictions. No ads. </h1>
+         </article>
+		 
+         
+<footer id="footer1"></footer>
+<footer>
+<ul>
+	<li>
+	About
+	</li>
+		<li>
+		Jobs
+		</li>
+			<li>
+			Media
+			</li>
+<li>
+Artist
+</li>
+<li>
+News
+</li>
+<li>
+Company
+</li>
+<li>
+Developer
+</li>
+<li>
+ Webbplayer
+</li>
+</ul>
+<div id="social">
+<p>Follow us!</p>
+<a href="[full link to your Twitter]">
+<img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter1.png" width="35" height="35" />
+</a>
+<a href="[full link to your LinkedIn]">
+<img title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin1.png" width="35" height="35" />
+</a>
+<a href="[full link to your Facebook page]">
+<img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook1.png" width="35" height="35" />
+</a>
+<a href="googleplus">
+<img title="googleplus" alt="Pinterest" src="hbilder/Google-Plus-icon.png" width="35" height="35" />
+</a>
+</div>
+
+<div id="info">
+<p><a href="html/Legalinfo.html">
+Legal information
+</a></p>
+<p>
+Cookies
+</p>
+<p>
+AdChoices
+</p>
+</div>
+</footer>
+   </body>
+</html>
