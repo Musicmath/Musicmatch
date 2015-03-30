@@ -54,6 +54,20 @@ $('#pause').click(function(){
 	$('#pause').hide();
 	$('#play').show();
 });
+//Mute Button
+  $('#mute').click(function(){
+	audio.volume = 0;
+	$('#mute').show();
+	$('#unmute').hide();
+	
+});	
+
+//Unmute Button
+  $('#mute').click(function(){
+	audio.volume = 10;
+	$('#mute').hide();
+	
+});	
 	
 //Next Button
 $('#next').click(function(){
@@ -98,10 +112,10 @@ $('#volume').change(function(){
 //Time Duration
 function showDuration(){
 	$(audio).bind('timeupdate', function(){
-		//Get hours and minutes
+		//Hämtar timmar och minuter
 		var s = parseInt(audio.currentTime % 60);
 		var m = parseInt((audio.currentTime / 60) % 60);
-		//Add 0 if seconds less than 10
+		//lägger till 0 om sekunderna är mindre än 10
 		if (s < 10) {
 			s = '0' + s;
 		}

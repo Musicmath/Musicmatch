@@ -14,7 +14,7 @@
          href="Css/mobilepopoutform.css" rel="stylesheet"/>
       <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
       <script src="Js/popoutform.js" type="text/javascript"></script>
-      <script>
+      <script><!-- Mobilmeny så att den inte syns direkt då man kommer in på mobilen (dropdown meny)-->
          $(function() {
          	var pull = $('#mlogo');
          		menu = $('nav ul');
@@ -33,6 +33,12 @@
            		});
          });
       </script>
+	  <script type="text/javascript">
+    document.getElementById('searchbar').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=site:minsida ' + document.getElementById('searchbar').value;
+        return false;
+    }
+</script>
       <script>
          function div_show() {
          document.getElementById('create').style.display = "block";
@@ -43,7 +49,7 @@
       </script>
    </head>
    <body>
-      <section id="Menu"><!-- -Menu -->
+      <section id="Menu"><!-- Meny -->
          <a id="logo" href="index.html"></a>
          <a id="mlogo"></a>
          <nav>
@@ -62,7 +68,7 @@
             </ul>
          </nav>
       </section>
-      <section id="create account"><!-- create account popout window-->
+      <section id="create account"><!-- Skapa ett konto fönster-->
          <div id="create" style="overflow:hidden;">
             <div id="popupContact">
                <form action="#" id="form" method="post" name="form">
@@ -80,7 +86,7 @@
             </div>
          </div>
       </section>
-      <section id="memberlogin"><!-- login poput window -->
+      <section id="memberlogin"><!-- logga in fönster -->
          <div id="login" style="overflow:hidden;">
             <div id="popuplogin">
                <form id="null" name="form1" method="post" action="../php/checklogin.php">
@@ -196,6 +202,7 @@
          <article>
          </article>
       </section>
+	  <!-- gör så att knappen vänder sig upp och ner men åt rätt vinkel.-->
 <footer id="footer1"><a name="button6"href="#button1" class="arrowdown" style="
 		top: -39px; 
         transform: scaleY(-1);

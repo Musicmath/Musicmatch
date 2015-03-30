@@ -41,6 +41,10 @@
 		   document.getElementById('login').style.display = "block";
 		 }
       </script>
+	  <script>
+	  
+	  </script>
+	  
    <body>
       <section id="Menu">
          <a id="mlogo"></a>
@@ -168,6 +172,8 @@
                <div id="buttons">
                   <span>
                   <button id="prev"></button>
+				  <button id="mute"></button>
+				  <button id="unmute"></button>
                   <button id="play"></button>
                   <button id="pause"></button>
                   <button id="next"></button>
@@ -177,10 +183,12 @@
                <div class="clearfix"></div>
                <div id="tracker">
                   <span id="duration"></span>
-                  <div id="progressBar">
-                     <progress id="progress" value="1" max="100"></progress>
-                     <!--<span id="progress"></span>-->
-                  </div>
+                 
+                     <div id="progressBar">
+					 <span id="progress"></span>
+					 </div>
+                     
+                  
                </div>
                <div class="clearfix"></div>
             </div>

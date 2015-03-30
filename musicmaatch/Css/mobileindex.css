@@ -135,13 +135,13 @@ position:relative;
 }
 
 #mlogo{
-background:url(../hbilder/nav-icon.png) 0 no-repeat;
-height:35px;
-width:35px;
+background:url(../hbilder/nav-icon.png);
+height:32px;
+width:44px;
 position:absolute;
 z-index: 1;
-margin-left:10px;
-margin-top:8px;
+margin-top:12px;
+margin-left:3px;
 cursor:pointer;
 }
 
