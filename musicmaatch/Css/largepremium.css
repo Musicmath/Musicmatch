@@ -24,7 +24,7 @@ position:relative;
   height:100%;
   display: block;
   z-index:0;
-  background: rgba(0,191,255,0.6);
+  background: rgba(0,191,255,0.7);
 }
 #searchbar{
 width:200px;
@@ -64,7 +64,7 @@ transition: color 0.2s ease 0s;
 ul.nav{
 position:fixed;
 padding:40px;
-background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.7);
+background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.8);
 margin:0px;
 font-weight: bold;
 width:100%;
@@ -151,7 +151,7 @@ margin: auto;
 color: white;
 left: 50%;
 transform: translate(-50%, -50%);
-top: 350px;
+top: 300px;
 }
 
 #logo{
