@@ -36,6 +36,8 @@ border-radius: 25px;
 margin-left:10px;
 transition:0.2s;
 cursor:pointer;
+text-decoration:none;
+color:white;
 }
 
 #bigButton2:hover{
@@ -262,7 +264,7 @@ color: white;
 }
 #first1{
 position: absolute;
-top: 50%;
+top: 52%;
 width: 80%;
 margin: auto;
 color: white;

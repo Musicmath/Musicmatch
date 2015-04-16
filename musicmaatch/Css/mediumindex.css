@@ -16,6 +16,8 @@ border-radius: 25px;
 margin-left:10px;
 transition:0.2s;
 cursor:pointer;
+text-decoration:none;
+color:white;
 }
 
 #bigButton:hover ,#bigButton2:hover{
