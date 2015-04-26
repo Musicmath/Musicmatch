@@ -72,8 +72,6 @@ padding: 10px;
 
 }
 
-
-
 .clearfix{
 clear:both;
 }
@@ -88,14 +86,12 @@ overflow-y: scroll;
 }
 
 #playbar{
- position: absolute;
- left: 0;
-    bottom: 0;
-    width: 100%;
-	color:white;
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+color:white;
 }
-
-
 
 #audio-image{
 position:relative;
@@ -120,7 +116,7 @@ height: 52px;
 }
 
 #audio-info .artist{
-	font-weight:bold;
+font-weight:bold;
 }
 
 .cover{
@@ -134,16 +130,14 @@ background-repeat: no-repeat;
 background-position: 50%;
 border-radius: 50%;
 width:400px;
-top:145px;
+top:325px;
 position:fixed;
-	animation-name: pulse;
-	-webkit-animation-name: pulse;	
-
-	animation-duration: 1.5s;	
-	-webkit-animation-duration: 1.5s;
-
-	animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
+animation-name: pulse;
+-webkit-animation-name: pulse;	
+animation-duration: 1.5s;	
+-webkit-animation-duration: 1.5s;
+animation-iteration-count: infinite;
+-webkit-animation-iteration-count: infinite;
 }
 
 @keyframes pulse {
@@ -206,11 +200,11 @@ display:none;
 .audio-info{
 color: white;
 margin: 0px auto;
-position: fixed;
-left: 140px;
-top:90px;
+position: relative;
+left: -261px;
+top:217px;
 font-size: 3em;
-width: 1200px;
+width: 947px;
 text-align:center;
 }
 #audio-player{
