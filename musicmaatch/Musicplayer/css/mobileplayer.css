@@ -14,74 +14,18 @@ font: inherit;
 vertical-align: baseline;
 
 }
-
-#logo{
-margin-top:5px;
-padding:5px;
-margin-left:100px;
-z-index:5;
-position:fixed;
-background:url(../../hbilder/biglogo2.png);
-height:40px;
-width:190px;
-}
-
-#bigButton{
-font-size:1.1em;
-font-weight: bold;
-background-color:#00BFFF	;
-padding:8px;
-border-radius: 25px;
-margin-left:10px;
-transition:0.2s;
-}
-
-#bigButton:hover{
-background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.4);
-transition:0.2s;
-}
-
-
-ul.nav{
-position:fixed;
-padding:20px;
-background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.6);
-margin:0px;
-font-weight: bold;
-width:100%;
-z-index:4;
-}
-
-.nav{
-text-align:center;
-
-}
-
-.nav li{
-list-style:none;
-display:inline;
-
-}
-
-.nav li a{
-font-family:helvetica;
-text-decoration:none;
-Color:white;
-padding: 10px;
-
-}
-
 .clearfix{
 clear:both;
 }
 
-#container{
+#container{/*Playlistan*/
 background-color: #303030;
 top: 61px;
 position: fixed;
 height: 574px;
 z-index: 2;
 overflow-y: scroll;
+visibility:hidden;
 }
 
 #playbar{
@@ -112,6 +56,7 @@ bottom: 64px;
 text-align: center;
 position: relative;
 height: 52px;
+visibility:hidden;
 }
 
 #audio-info .artist{
@@ -122,23 +67,25 @@ font-weight:bold;
 width: 65px;
 position: relative;
 top: 5px;
+visibility:hidden;
 }
 
 #cover{
 background-repeat: no-repeat;
 background-position: 50%;
 border-radius: 50%;
-width:400px;
+border: 16px outset black;
+width:150px;
 top:260px;
-position:fixed;
+position:relative;
 top: 28%;
 margin: auto;
-left: 50%;
+left: 60%;
 transform: translate(-50%, -50%);
 animation-name: pulse;
 -webkit-animation-name: pulse;	
-animation-duration: 1.5s;	
--webkit-animation-duration: 1.5s;
+animation-duration: 5s;	
+-webkit-animation-duration: 5s;
 animation-iteration-count: infinite;
 -webkit-animation-iteration-count: infinite;
 }
@@ -172,24 +119,6 @@ animation-iteration-count: infinite;
 		opacity: 0.7;	
 	}			
 }
-#searchbar{
-width:200px;
-position: absolute;
-top: -18px;
-right: 268px;
-box-shadow:none;
-}
-
-#searchbutton{
-position: relative;
-width: 1%;
-min-width: 20px;
-float: right;
-position: absolute;
-right: 243px;
-top: 25px;
-
-}
 #wrap{
 position: relative;
 top: 53px;
@@ -204,11 +133,10 @@ display:none;
 color: white;
 margin: 0px auto;
 position: relative;
-left: -261px;
+left: -241px;
 top:150px;
-font-size: 3em;
-width: 947px;
-text-align:center;
+font-size: 2em;
+width: 400px;
 }
 #audio-player{
 height:auto;
@@ -233,9 +161,10 @@ width:12px;
 /*alla knappar för musikspelaren */
 #buttons{
 border-style:none;
-width:225px;
+width:300px;
 padding:5px;
-z-index:3;
+position:relative;
+margin:auto;
 height: 80px;
 }
 
@@ -244,28 +173,28 @@ button#play{
 border-style:none;
 width:50px;
 height:50px;
-background:url(../images/playbutton.gif);
+background:;
 }
 
 button#pause{
 border-style:none;
 width:70px;
 height:70px;
-background:url(../images/pause.png) no-repeat;
+background:no-repeat;
 }
 
 button#stop{
 border-style:none;
 width:70px;
 height:70px;
-background:url(../images/stop.png) no-repeat;
+background: no-repeat;
 }
 
 button#prev{
 border-style:none;
 width:70px;
 height:70px;
-background:url(../images/prev.gif) no-repeat;
+background:no-repeat;
 
 }
 
@@ -273,12 +202,11 @@ button#next{
 border-style:none;
 width:70px;
 height:70px;
-background:url(../images/next.gif) no-repeat;
+background: no-repeat;
 }
 
 #playlist {
 list-style:none;
-
 }
 
 #playlist li {
@@ -290,10 +218,10 @@ margin-left:-41px;
 padding:2px;
 position:relative;
 top:-3px;
-
 }
 
 #tracker{
+
 position: absolute;
 margin-top: -65px;
 width: 350px;
@@ -304,16 +232,7 @@ margin-left: 400px;
 
 }
 
-#progressBar { 
-border:1px solid #aaa;
-color:#fff; 
-width:300%;
-max-width:1100px;
-height:20px;
-position:relative; 
-left: 7px;
-top: 7px;
-}
+
 
 
 #progress {
@@ -329,8 +248,8 @@ position:absolute;
 #duration{
 position:relative;
 float: left;
-top:6px;
-left:-35px;
+top:41px;
+left:-280px;
 }
 
 footer{
