@@ -6,7 +6,7 @@ outline: none;
 
 body{
 background-size:cover;
-background: url(http://wallpapers111.com/wp-content/uploads/2015/02/friendship-Wallpaper-4.jpg) 50% 0 no-repeat fixed;
+background: url("../images/background.jpg") 50% 0 no-repeat fixed;
 margin: 0;
 padding: 0;
 font-size: 100%;
@@ -121,8 +121,7 @@ animation-iteration-count: infinite;
 }
 #wrap{
 position: relative;
-top: 53px;
-width: 500px;
+top: 165px;
 margin: 0px auto;
 }
 
@@ -133,10 +132,10 @@ display:none;
 color: white;
 margin: 0px auto;
 position: relative;
-left: -241px;
-top:150px;
-font-size: 2em;
-width: 400px;
+left: 44px;
+top:5px;
+font-size: 1.8em;
+width: 248px;
 }
 #audio-player{
 height:auto;
@@ -145,8 +144,8 @@ position: relative;
 }
 
 input#volume {
-width: 120px;
-left: 220px;
+width: 75px;
+left: 180px;
 background: none repeat scroll 0% 0% #CCC;
 height: 3px;
 position: absolute;
@@ -223,9 +222,9 @@ top:-3px;
 #tracker{
 
 position: absolute;
-margin-top: -65px;
-width: 350px;
-margin-left: 400px;
+top:-5px;
+width: 20px;
+left:400px;
 }
 
 #playlist li.active {
