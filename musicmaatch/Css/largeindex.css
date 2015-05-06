@@ -162,12 +162,12 @@ position:relative;
 #p2b{
 
 height:auto;
-width: 99%;
+width: 98%;
 padding: 6px;
 min-width:600px;
 position:absolute;
 z-index: 1;
-bottom: -631px;
+margin-top:-181px;
 }
 
 #Bilder2{
