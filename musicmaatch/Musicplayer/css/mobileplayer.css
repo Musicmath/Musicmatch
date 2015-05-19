@@ -20,16 +20,17 @@ clear:both;
 
 #container{/*Playlistan*/
 background-color: #303030;
-top: 61px;
+top: 0px;
 position: fixed;
+width:100%;
 height: 574px;
 z-index: 2;
 overflow-y: scroll;
-visibility:hidden;
+
 }
 
 #playbar{
-position: absolute;
+position: fixed;
 left: 0;
 bottom: 0;
 width: 100%;
@@ -76,11 +77,10 @@ background-position: 50%;
 border-radius: 50%;
 border: 16px outset black;
 width:150px;
-top:260px;
 position:relative;
-top: 28%;
+top: 80px;
 margin: auto;
-left: 60%;
+left: 100%;
 transform: translate(-50%, -50%);
 animation-name: pulse;
 -webkit-animation-name: pulse;	
@@ -121,7 +121,6 @@ animation-iteration-count: infinite;
 }
 #wrap{
 position: relative;
-top: 165px;
 margin: 0px auto;
 }
 
@@ -132,10 +131,10 @@ display:none;
 color: white;
 margin: 0px auto;
 position: relative;
-left: 44px;
-top:5px;
+left:70px;
+top:70px;
 font-size: 1.8em;
-width: 248px;
+width: 240px;
 }
 #audio-player{
 height:auto;
@@ -145,11 +144,11 @@ position: relative;
 
 input#volume {
 width: 75px;
-left: 180px;
+left: 177px;
 background: none repeat scroll 0% 0% #CCC;
 height: 3px;
 position: absolute;
-top: 38px;
+top: 60px;
 }
 input#volume::-webkit-slider-thumb {
 -webkit-appearance: none !important;
@@ -163,6 +162,7 @@ border-style:none;
 width:300px;
 padding:5px;
 position:relative;
+left:41px;
 margin:auto;
 height: 80px;
 }
@@ -172,7 +172,7 @@ button#play{
 border-style:none;
 width:50px;
 height:50px;
-background:url("../images/playbutton.gif");
+background:url("../images/playbutton.gif") no-repeat;
 }
 
 button#pause{
@@ -193,7 +193,7 @@ button#prev{
 border-style:none;
 width:70px;
 height:70px;
-background:no-repeat;
+background:url("../images/prev.gif") no-repeat;
 
 }
 
@@ -201,19 +201,31 @@ button#next{
 border-style:none;
 width:70px;
 height:70px;
-background: no-repeat;
+background:url("../images/next.gif") no-repeat;
+}
+
+#playlistbutton{
+border-style:none;
+width:44px;
+position:absolute;
+left:235px;
+top:13px;
+z-index:4;
+height:32px;
+background:url("../images/nav-icon.png") no-repeat;
 }
 
 #playlist {
 list-style:none;
+text-align:center;
 }
 
 #playlist li {
 cursor: pointer;
 color:white;
 border-top-style: solid;
-width:200px;
-margin-left:-41px;
+width:100%;
+margin-left:-27px;
 padding:2px;
 position:relative;
 top:-3px;
@@ -247,8 +259,8 @@ position:absolute;
 #duration{
 position:relative;
 float: left;
-top:41px;
-left:-280px;
+top:51px;
+left:-390px;
 }
 
 footer{
